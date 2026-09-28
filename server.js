@@ -478,5 +478,5 @@ app.get('/robots.txt', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Dunung4Khd เซิร์ฟเวอร์ทำงานที่: http://localhost:${PORT}`);
+  console.log(`dunung4khd เซิร์ฟเวอร์ทำงานที่: http://localhost:${PORT}`);
 });
