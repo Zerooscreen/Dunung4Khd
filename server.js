@@ -387,7 +387,7 @@ app.get('/person/:id/:slug?', async (req, res) => {
     `;
 
     const headHtml = head({
-      title: `${person.name} · ประวัติ ผลงานและข้อมูลนักแสดง · 037ThaiHD`,
+      title: `${person.name} · ประวัติ ผลงานและข้อมูลนักแสดง · Dunung4Khd`,
       description: `ประวัติและผลงานการแสดงของ ${person.name} ข้อมูลภาพยนตร์และซีรีส์ทั้งหมดที่ร่วมแสดง`,
       url: `${SITE_URL}/person/${id}/${encodeURIComponent(correctSlug)}`,
       image: img(person.profile_path, 'w780'),
